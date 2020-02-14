@@ -14,36 +14,54 @@
      <body style = "background: #101832; color: white;">
         <div class = "header" style = "background: #101832;; color: #D8042B; height: 50px; ">
              <div class = "container" style = "height: 50px; display: flex; flex: row; justify-content: space-between; align-items: center; ">
-                 <div class = "logo"> <h3><b> AR </b></h3> </div>
+                 <div class = "logo"> <h3><b> <a style = "color:#D8042B" href="index.html">AR</a></b></h3> </div>
                  <div class = "right-links" style = "display: flex; flex-direction: row;">
-                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;">Home</div>
-                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;">About </div>
+                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;"><a style = "color:#D8042B" href="index.html">Home</a></div>
+                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;"><a style = "color:#D8042B" href="#about">About</a></div> 
                      <div class = "link" style = "margin-left: 20px; margin-right: 20px;">Projects</div>
-                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;"> <a style = "color:#D8042B" href ="/Users/angeli/Desktop/MyPortfolio/Resume.html">Resume</a> </div>
-                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;">Contact</div>
+                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;"> <a style = "color:#D8042B" href="#experience">Experience</a> </div>
+                     <div class = "link" style = "margin-left: 20px; margin-right: 20px;"> <a style = "color:#D8042B" href="#contact">Contact</a> </div>
                  </div>
              </div>    
         </div>
-        <div class = "section1" style = "background: #101832; height: 500px; ">
+
+    <!-- INTRODUCTION SECTION-->
+        <div class = "section1" style = "background: #101832; height: 650px; ">
             <div class = "Intro">
-                <div class = "container" style = "height: 500px; display: flex; flex: row; justify-content: space-between; align-items: center; "> 
+                <div class = "container" style = "height: 500px; display: flex; flex: row; justify-content: space-between; align-items: center; background: #101832;"> 
                     <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                         <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h6 style = "color:#D8042B">  Hi, my name is </h6>
-                            <h1 style = "color: #ffffffc9"> <b> Anyeli Rodriguez. </b>   </h1>
-                            <p style = "color: white;"> I'm a freshman at Hunter College majoring in Computer Science.</p>
+                            <h1 style = "color:#D8042B; font-size: 16;">  Hi, my name is </h1>
+                            <h2 style = "color: #ffffffc9; font-size: 80px; padding-bottom: 50px;"> <b> Anyeli Rodriguez. </b>   </h2>
+                            <p style = "color: white; font-size: 20px; "> I'm a freshman at Hunter College majoring in Computer Science.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    <!-- ABOUT ME SECTION-->    
+        <div class = "section2" style = "background: #101832; height: 350px; ">
+            <div class = "About" id = "about">
+                <div class = "container" style = "height: 500px; display: flex; flex: row; justify-content: space-between; align-items: center; background: #101832;"> 
+                    <div class = "row"> <!-- This is for resizing screen depending on screen size -->
+                        <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h3 style = "font-size: 24; margin-bottom: 40px;">  About Me </h3>
+                            <p style = "color: #8892B0; font-size: 18px; margin-bottom: 15px;"> Hey, I'm Anyeli. I'm currently working on this personal project,  
+                            mainly to learn how to use HTML, CSS, and JavaScript. I'm a hands-on learner and I wanted to build this site from scratch. Below, 
+                            you will find important stuff that would normally appear in a portfolio including some of my projects.
+                            Given that I'm a freshman, I don't have extensive experience, but I am extremely proud of my work! </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
         
      <!-- EXPERIENCE SECTIONNNNNNNNNNNNNN-->
-        <div class = "section2" style = "background: #101832; height: 500px; ">
-            <div class = "title " style = "text-align: center;"> <h4>Experience </h4></div>
-            <div class = "Experience container">
-               <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;">
+        <div class = "section3" style = "background: #101832; height: 650px; ">   
+            <div class = "Experience container" id = "experience">
+                <div class = "title " style = "font-size: 24px; margin-top: 80px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3>Experience </h3></div>
+                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
+                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style = "color: #D8042B; margin-bottom: 20px">
                        <h2> <b>Bloomberg</b> </h2>
                        <h4> <i> Software Engineer Intern, WiTNY </i> </h4>
                        <p style = "color: white;"> *Collaborated with a team of four interns to automate the process of transferring information from a spreadsheet to a database for Clean Ocean Action, a non-profit organization</p>
@@ -52,7 +70,7 @@
                    </div>
                </div>
                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;">
+                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style = "color: #D8042B; margin-bottom: 20px">
                       <h2> <b> Diverse Influencers </b> </h2>
                       <h4> <i> Fellow</i></h4>
                       <p style = "color: white;"> *Team leader for a semester-long project - create a business plan, a website, and a marketing strategy for a mock tech company (MetroLive) that aims to build more reliable MTA technical infrastructure</p>
@@ -62,7 +80,7 @@
                    </div>
                </div>
                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;">
+                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style = "color: #D8042B; margin-bottom: 20px">
                       <h3> <b> Women in Technology and Entrepreneurship in New York (WiTNY) </b>	</h3>
                       <h4> <i> Summer Guild Program Fellow</i></h4>
                       <p style = "color: white;"> *Participated in a one week, all-female intensive immersion program in HTML, CSS, and JavaScript</p>
@@ -76,21 +94,36 @@
         </div>
 
         <!-- Skills SECTIONNNNNNNNNNNNNN-->
-        <div class = "section2" style = "background: #101832; height: 500px; ">
-            <div class = "title " style = "text-align: center;"> <h4>Skills </h4></div>
+        <div class = "section4" style = "background: #101832; height: 250px; ">
             <div class = "Skills container">
-               <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;;">
-                       <h2> <b>Programming Languages</b> </h2>
+                <div class = "title " style = "font-size: 24px; margin-top: 120px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3>Skills </h3></div>
+                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
+                    <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;;">
+                       <h2 style = "font-size: 22px"> <b>Programming Languages</b> </h2>
                        <p style = "color: white;"> *Java (Proficient)</p>
                        <p style = "color: white;"> *C++ (Beginner)</p>
                        <p style = "color: white;"> *Python (Beginner</p>
-                   </div>
-               </div>
-               
+                    </div>
+                </div> 
             </div>
-            <div>
+        </div>
 
+        <!-- Contact sectionnnnn-->
+        <div class = "section5" style = "background: #101832; height: 650px; ">
+            <div class = "Contact container" id = contact>
+                <div class = "title " style = "font-size: 24px; margin-top: 120px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3> Contact Me </h3></div>
+                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
+                    <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;">
+                        <p style = "color: white">Feel free to reach out! </p>
+
+                       <h2 style = "font-size: 22px"> <b>Email</b> </h2>
+                       <p> <a style = "color: white; " href ="mailto:anyelimrodriguez@gmail.com">anyelimrodriguez@gmail.com</a> </p>
+
+                       <h2 style = "font-size: 22px"> <b> LinkedIn </b> </h2>
+                       <p> <a style = "color: white; " href ="https://www.linkedin.com/in/anyelimrodriguez/">https://www.linkedin.com/in/anyelimrodriguez/</a> </p>
+                    </div>
+                </div> 
+            </div>
         </div>
      </body>
  
