@@ -1,0 +1,45 @@
+/*
+    element selector (ex: p tag) -> p{}
+    id selector (ex: id="hi") -> #hi{}
+    class selector (ex: class=header) -> .header{}
+
+*/
+body {
+    background: black; 
+    color: white
+}
+h2{
+    color: #D8042B;
+}
+h4{
+    color: white;
+}
+p{
+    color:#ffffffd8;
+}
+ul li{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: circle;
+    color: #ffffffd8;
+}
+
+
+.header{
+    color: #D8042B; 
+    height: 50px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color:#D8042B;
+}
+/*a:visited{
+    color: #44BBA4;
+
+}
+a:hover{
+    color:#FFCDB2;
+}*/
