@@ -9,12 +9,35 @@ body {
     background: black; 
     color: white
 }
-h2{
+#name{
+    color: white; font-size: 80px; padding-bottom: 50px;
+}
+#bio{
+    color: #ffffffd8; font-size: 20px;
+}
+#about-me{
+    margin-bottom: 30px; 
+}
+#about-me-bio{
+    font-size: 18px; 
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 24px; 
+    margin-top: 120px; 
+    margin-right: 0px; 
+    margin-bottom: 40px; 
+    margin-left: 0px
+}
+
+h1,h2{
     color: #D8042B;
 }
-h4{
+h4,h6{
     color: white;
 }
+
 p{
     color:#ffffffd8;
 }
@@ -25,8 +48,12 @@ p{
     list-style-type: circle;
     color: #ffffffd8;
 }
-
-
+#columns{
+    margin-bottom: 20px;
+}
+#h2-smaller{
+    font-size: 22px;
+}
 .header{
     color: #D8042B; 
     height: 50px;
@@ -62,3 +89,7 @@ a:hover{
 a:hover{
     color:#FFCDB2;
 }*/
+
+.link{
+    color:#D8042B;
+}

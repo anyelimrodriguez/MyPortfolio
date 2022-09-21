@@ -7,6 +7,7 @@
  <html>
     <head>
         <title>Anyeli Rodriguez</title>
+
         <!-- This code imports bootstrap -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,13 +15,18 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        <!-- This code imports icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- This code links my style and script sheets-->
         <script src="script.js"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
  
     <body>
 
-        <!--HEADER-->
+        <!--HEADER aka nav bar-->
         <div class = "header">
              <div class = "container" style = "height: 50px; display: flex; flex: row; justify-content: space-between; align-items: center; ">
                  <div class = "logo"> <h3><b> <a style = "color:#D8042B" href="index.html">AR</a></b></h3> </div>
@@ -65,28 +71,27 @@
                 <div class = "container" style = "height: 500px; display: flex; flex: row; justify-content: space-between; align-items: center;"> 
                     <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                         <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h1 style = "color:#D8042B; font-size: 16;">  Hi, my name is </h1>
-                            <h2 style = "color: white; font-size: 80px; padding-bottom: 50px;"> <b> Anyeli Rodriguez. </b>   </h2>
-                            <p style = "color: #ffffffd8; font-size: 20px; " class="reveal"> I'm a student at 
+                            <h1>  Hi, my name is </h1>
+                            <h2 id="name"> <b> Anyeli Rodriguez. </b></h2>
+                            <p id="bio" class="reveal"> I'm a student at 
                                 <span><b>CUNY Hunter College,</b></span> majoring in <span><b>Computer Science.</b></span></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- ABOUT ME SECTION-->    
         <div class = "section2 reveal" style = "height: 350px; ">
             <div class = "About" id = "about">
                 <div class = "container" style = "height: 500px; display: flex; flex: row; justify-content: space-between; align-items: center;"> 
                     <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                         <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <h3 style = "font-size: 24; margin-bottom: 40px; ">  About Me </h3>
-                            <p style = " font-size: 18px; margin-bottom: 15px;"> Hey, I'm <span><b>Anyeli.</b></span> I'm currently working on this personal project,  
+                            <h3 id="about-me">  About Me </h3>
+                            <p id="about-me-bio"> Hey, I'm <span><b>Anyeli.</b></span> I'm currently working on this personal project,  
                             mainly to learn how to use HTML, CSS, and JavaScript. Below, 
                             you will find important stuff that would normally appear in a portfolio including some of my projects.
-
-    
-                             </p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -96,11 +101,11 @@
      <!-- EXPERIENCE SECTIONNNNNNNNNNNNNN-->
         <div class = "section3 reveal" style = "height: 650px; ">   
             <div class = "Experience container" id = "experience">
-                <div class = "title " style = "font-size: 24px; margin-top: 120px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3>Experience </h3></div>
+                <div class = "title"> <h3>Experience </h3></div>
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style = "margin-bottom: 20px">
+                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="columns">
                        <h2> <b>Bloomberg</b> </h2>
-                       <h4 style = "color:white" > <b> Software Engineer Intern, WiTNY - Jan 2020 </b> </h4>
+                       <h4> <b> Software Engineer Intern, WiTNY - Jan 2020 </b> </h4>
                        <ul class="bullet-points">
                             <li>Collaborated with a team of four interns to automate the process of transferring information from a spreadsheet to a database for Clean Ocean Action, a non-profit organization</li>
                             <li>Utilized Python to parse through information in spreadsheets</li>
@@ -109,7 +114,7 @@
                    </div>
                </div>
                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style = "margin-bottom: 20px">
+                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="columns">
                       <h2> <b> Diverse Influencers </b> </h2>
                       <h4> <b> Fellow - Oct. 2019 - May 2020</b></h4>
                       <ul class="bullet-points">
@@ -121,12 +126,12 @@
                    </div>
                </div>
                <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style = "margin-bottom: 20px">
+                   <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="columns">
                       <h3 style="color:#D8042B"> <b> Women in Technology and Entrepreneurship in New York (WiTNY) </b> </h3>
                       <h4> <b> Summer Guild Program Fellow - July 2019 </b></h4>
                       <ul class="bullet-points">
                             <li>Participated in a one week, all-female intensive immersion program in HTML, CSS, and JavaScript</li>
-                            <li>Collaborated with a team of three to develop and design a website using Google Material Design <a style = "color:white" href ="http://ecoedu.glitch.me">(edoedu.glitch.me)</a> </li>
+                            <li>Collaborated with a team of three to develop and design a website using Google Material Design <a href ="http://ecoedu.glitch.me">(edoedu.glitch.me)</a> </li>
                             <li>Designed an MVP to outline a plan to divide tasks between team members </li>
                             <li>Utilized Glitch to monitor the team's progress and identify issues</li>
                         </ul>
@@ -139,13 +144,13 @@
         <!-- Project SECTIONNNNNNNNNNNNNN-->
         <div class = "section3 reveal" >   
             <div class = "Project container" id = "projects">
-                <div class = "title " style = "font-size: 24px; margin-top: 120px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3>Projects </h3>
+                <div class = "title"> <h3>Projects </h3>
                 </div>
                 
                 
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                     <!-- Diverse Influencers-->
-                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style = "margin-bottom: 20px">
+                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" id="columns">
                         <h2> <b> Diverse Influencers - MetroLive</b> </h2>
                         <h4> <b> Team Project - Building a Website</b></h4>
                         <p><img src="photos/MLHomepage.png" alt="Homepage" style="width:540px; height:253px"> </p>
@@ -159,7 +164,7 @@
                     </div>
 
                     <!-- WiTNY-->
-                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" style = "margin-bottom: 20px">
+                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" id="columns">
                         <h2> <b> WiTNY Summer Guild</b> </h2>
                         <h4> <b> Team Project - Building a Website</b></h4>
                         <p> <img src="photos/EcoEdu.png" alt="Homepage" style="width:540px; height:253px"> </p>
@@ -172,7 +177,7 @@
                     </div>
                 
                     <!-- Practical Web Dev-->
-                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" style = "margin-bottom: 20px">
+                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" id="columns">
                        <h2> <b> Practical Web Development Class</b> </h2>
                        <h4> <b> Team Assignment - Working with APIs and endpoints</b></h4>
                        <p><img src="photos/APIsAssignment.png" alt="Homepage" style="width:540px; height:211px"> </p>
@@ -190,7 +195,7 @@
                     </div>
                 
                     <!-- Movie Search-->
-                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" style = "margin-bottom: 20px">
+                    <div class = "col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6" id="columns">
                         <h2> <b> Projects - Summer 2022</b> </h2>
                         <h4> <b> First Version of Movie Search App</b></h4>
                         <p><img src="photos/MovieSearchv1.png" alt="Movie Search" style="width:540px; height:409px"> </p>
@@ -207,90 +212,94 @@
                         <p> <a href ="https://github.com/anyelimrodriguez/FirstMovieSearchApp/tree/main"><b>THE CODE</b>  </a> </p>
     
                      </div>
-                </div>
-
-            
-                    
+                </div> 
             </div>
         </div>
 
         <!-- Skills SECTIONNNNNNNNNNNNNN-->
         <div class = "section4 reveal"> <!-- style = "height: 1450px; "> -->
             <div class = "Skills container">
-                <div class = "title " style = "font-size: 24px; margin-top: 120px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3>Skills </h3></div>
+                <div class = "title "> <h3> Skills </h3></div>
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" style = "color: #D8042B;;">
-                       <h2 style = "font-size: 22px"> <b>Programming Languages</b> </h2>
-                       <p style = "color: #ffffffd8"> *C++ (Proficient)</p>
-                       <p style = "color: #ffffffd8"> *Java (Familiar)</p>
-                       <p style = "color: #ffffffd8"> *Python (Beginner)</p>
-                       <p style = "color: #ffffffd8"> *HTML,CSS,JavaScript (Familiar) </p>
-                       <p style = "color: #ffffffd8"> *ReactJS (Beginner) </p>
-                       <p style = "color: #ffffffd8"> <b>Currently taking classes in the following:</b> </p>
-                       <p style = "color: #ffffffd8"> *Swift (Beginner) </p>
-                       <p style = "color: #ffffffd8"> *Dart (language)/Flutter SDK (Beginner) </p>
+                    <!-- Programming Languages-->
+                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                       <h2 id="h2-smaller"> <b>Programming Languages</b> </h2>
+                       <p> *C++ (Proficient)</p>
+                       <p> *Java (Familiar)</p>
+                       <p> *Python (Beginner)</p>
+                       <p> *HTML,CSS,JavaScript (Familiar) </p>
+                       <p> *ReactJS (Beginner) </p>
+                       <p> <b>Currently taking classes in the following:</b> </p>
+                       <p> *Swift (Beginner) </p>
+                       <p> *Dart (language)/Flutter SDK (Beginner) </p>
                     </div>
-                
-                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-6" style = "color: #D8042B;;">
-                       <h2 style = "font-size: 22px"> <b>Other</b> </h2>
-                       <p style = "color: #ffffffd8"> *Beginner/Intermediate on using APIs</p>
-                       <p style = "color: #ffffffd8"> *Familiar with the basics of GitHub and Gitlab</p>
-                       <p style = "color: #ffffffd8"> *Familiar with the basics of Unix Commands</p>
-                       <p style = "color: #ffffffd8"> *Familiar with building prototypes on Figma</p>
+                    <!-- Miscellaneous-->
+                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-6">
+                       <h2 id="h2-smaller"> <b>Other</b> </h2>
+                       <p> *Beginner/Intermediate on using APIs</p>
+                       <p> *Familiar with the basics of GitHub and Gitlab</p>
+                       <p> *Familiar with the basics of Unix Commands</p>
+                       <p> *Familiar with building prototypes on Figma</p>
                     </div>
                 </div>
 
-                <h2 style = "font-size: 22px"> <b>What I'm learning/working on this semester</b> </h2>
+                <h2 id="h2-smaller"> <b>What I'm learning/working on this semester</b> </h2>
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                     
-                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4" style = "color: #D8042B;">
-                       <h6 style="color:white"> <b>CSCI Capstone Course</b> </h4>
-                        <p style = "color: #ffffffd8"> *Main focus of course is creating a project in a team of 6.
+                    <!-- Capstone -->
+                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                       <h6> <b>CSCI Capstone Course</b> </h4>
+                        <p> *Main focus of course is creating a project in a team of 6.
                         We are creating a social app where pet owners can meet other pet owners with the only 
                         intention of their pets being pals. I am working in <b>front-end in Dart/Flutter</b> with 2 others and 
                         the other three are working on back-end in MYSQL. The project will be able on GitHub at the end.</p>
-                        <p style = "color: #ffffffd8"> *On the side, we are following 
-                            <a style = "color: white; " href ="https://missing.csail.mit.edu/">(Missing Semester of Your CS Education)</a> 
+                        <p> *On the side, we are following 
+                            <a href ="https://missing.csail.mit.edu/">(Missing Semester of Your CS Education)</a> 
                              -> which covers Shell Tools and Scripting, Editors (Vim), 
                              Data Wrangling, Command-line Environment, Version Control (Git), Debugging and Profiling, 
                              Metaprogramming, Security and Cryptography, and Potpourri
                         </p>
                     </div>
                     
-                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4" style = "color: #D8042B;">
-                       <h6 style="color:white"> <b> IOS development class</b> </h4>
-                        <p style = "color: #ffffffd8"> *Will be building three native IOS apps in Swift, two following guides
+                    <!-- IOS dev-->
+                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                       <h6> <b> IOS development class</b> </h4>
+                        <p> *Will be building three native IOS apps in Swift, two following guides
                             (simple Bullseye app and a locations app) and a final one with guidelines like 
                             making atleast one REST API call, implementing animations, etc. This final app 
                             includes making a project proposal, building UI, testing, etc. *None are group projects*
                         </p>
-                        <p style = "color: #ffffffd8"> *Frameworks covered: UIKit, Foundation, UserNotifications, CoreLocation, CoreData, MapKit, MessageUI, AudioToolbox, WebKit</p>
-                        <p style = "color: #ffffffd8"> *Other topics being covered: Swift language features, Delegates & protocols, Subclassing and extensions, Data Persistence, 
-                            UIView animations, Navigation controllers, Tab Bar controllers, Gesture recognizers, GCD (Grand central dispatch) (synchronous vs asynchronous), Threads, Networking</p>
+                        <p> *Frameworks covered: UIKit, Foundation, UserNotifications, CoreLocation, CoreData, MapKit, MessageUI, AudioToolbox, WebKit</p>
+                        <p> *Other topics being covered: Swift language features, Delegates & protocols, Subclassing and extensions, Data Persistence, 
+                            UIView animations, Navigation controllers, Tab Bar controllers, Gesture recognizers, GCD (Grand central dispatch) (synchronous vs asynchronous), Threads, Networking
+                        </p>
                     </div>
 
-                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4" style = "color: #D8042B;">
-                        <h6 style="color:white"> <b>Flutter Class</b> </h4>
-                         <p style = "color: #ffffffd8"> *Working on group projects (one basic web app, one basic mobile app, and a final, more complex project)</p>
-                        <p style = "color: #ffffffd8"> *Topics being covered: Dart, Flutter, Firebase, Databases, APIs, Pipelines & Repos</p>
+                    <!-- Flutter -->
+                    <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                        <h6> <b>Flutter Class</b> </h4>
+                        <p> *Working on group projects (one basic web app, one basic mobile app, and a final, more complex project)</p>
+                        <p> *Topics being covered: Dart, Flutter, Firebase, Databases, APIs, Pipelines & Repos</p>
                     </div>  
                 </div>   
             </div>
         </div>
 
         <!-- Contact sectionnnnn-->
-        <div class = "section5 reveal"> <!-- style = "height: 650px; ">-->
+        <div class = "section5 reveal" style = "height: 350px; ">
             <div class = "Contact container" id = contact>
-                <div class = "title " style = "font-size: 24px; margin-top: 120px; margin-right: 0px; margin-bottom: 40px; margin-left: 0px"> <h3> Contact Me </h3></div>
+                <div class = "title "> <h3> Contact Me </h3></div>
+                <p style = "color: white"> <b> Feel free to reach out! </b></p>
+
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                    <div class = "col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" style = "color: #D8042B;">
-                        <p style = "color: white"> <b> Feel free to reach out! </b></p>
+                    <div class = "col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                       <h2 id="h2-smaller"> <b>Email</b> <i class="fa fa-envelope"> </i></h2>
+                       <p> <a href ="mailto:anyelimrodriguez@gmail.com">anyelimrodriguez@gmail.com</a> </p>
 
-                       <h2 style = "font-size: 22px"> <b>Email</b> <i class="fa fa-envelope" style="font-size:24px"> </i></h2>
-                       <p> <a style = "color: white; " href ="mailto:anyelimrodriguez@gmail.com">anyelimrodriguez@gmail.com</a> </p>
-
-                       <h2 style = "font-size: 22px"> <b> LinkedIn <i class="fa fa-linkedin-square" style="font-size:24px; color: #D8042B;"></i> </b> </h2>
-                       <p> <a style = "color: white; " href ="https://www.linkedin.com/in/anyelimrodriguez/">https://www.linkedin.com/in/anyelimrodriguez/</a> </p>
+                    </div>
+                    <div class = "col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h2 id="h2-smaller"> <b> LinkedIn </b> <i class="fa fa-linkedin-square"> </i></h2>
+                        <p> <a href ="https://www.linkedin.com/in/anyelimrodriguez/">https://www.linkedin.com/in/anyelimrodriguez/</a> </p>
                     </div>
                 </div> 
             </div>
