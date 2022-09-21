@@ -26,7 +26,7 @@
  
     <body>
 
-        <!--HEADER aka nav bar-->
+        <!--OLD HEADER aka nav bar
         <div class = "header">
              <div class = "container" style = "height: 50px; display: flex; flex: row; justify-content: space-between; align-items: center; ">
                  <div class = "logo"> <h3><b> <a style = "color:#D8042B" href="index.html">AR</a></b></h3> </div>
@@ -39,7 +39,7 @@
                  </div>
              </div>    
         </div>
-        <!--<nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="index.html"> <h4><b style="color:#D8042B;">AR</b></h4></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -57,6 +57,9 @@
                 </li> 
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
+                </li>   
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>    
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -64,7 +67,38 @@
               </ul>
             </div>  
         </nav> -->
+        <!--Navbar (from Bootstrap)-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <a class="navbar-brand" href="index.html"> <h2><b style="color:#D8042B;">AR</b></h1></a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
         <!-- INTRODUCTION SECTION-->
         <div class = "section1" style = "height: 350px; ">
             <div class = "Intro">
@@ -144,10 +178,8 @@
         <!-- Project SECTIONNNNNNNNNNNNNN-->
         <div class = "section3 reveal" >   
             <div class = "Project container" id = "projects">
-                <div class = "title"> <h3>Projects </h3>
-                </div>
-                
-                
+                <div class = "title"> <h3>Projects </h3> </div>
+            
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                     <!-- Diverse Influencers-->
                     <div class = "col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" id="columns">
@@ -172,7 +204,6 @@
                         <ul class="bullet-points">
                             <li>Utilized Google Material Design to develop Website - I worked on the cards and footer </li>
                         </ul>
-                        
                         <a href ="http://ecoedu.glitch.me"> <b> THE WEBSITE</b></a> 
                     </div>
                 
@@ -186,7 +217,6 @@
                             <li>Implemented a simple COVID Vaccine Data Search by requesting data from a COVID API - (ReactJS)</li>
                             <li>User inputs country-> Data gets requested from API-> Vaccine data is shown for said country</li>
                         </ul>
-                        
                         <p> 
                             Sample of my Code:
                         </p>
@@ -207,18 +237,16 @@
                             <li>Refreshed memory on components, states, props, events and got to practice a bit with APIs.  </li>
                             <li>Learned how to deploy React Apps to GitHub pages! Click on the project below :)</li>
                         </ul>
- 
                         <p> <a href ="https://anyelimrodriguez.github.io/FirstMovieSearchApp/"> <b> THE APP </b></a> </p>
                         <p> <a href ="https://github.com/anyelimrodriguez/FirstMovieSearchApp/tree/main"><b>THE CODE</b>  </a> </p>
-    
-                     </div>
+                    </div>
                 </div> 
             </div>
         </div>
 
         <!-- Skills SECTIONNNNNNNNNNNNNN-->
         <div class = "section4 reveal"> <!-- style = "height: 1450px; "> -->
-            <div class = "Skills container">
+            <div class = "Skills container" id = "skills">
                 <div class = "title "> <h3> Skills </h3></div>
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
                     <!-- Programming Languages-->
@@ -242,22 +270,22 @@
                        <p> *Familiar with building prototypes on Figma</p>
                     </div>
                 </div>
-
+                
                 <h2 id="h2-smaller"> <b>What I'm learning/working on this semester</b> </h2>
                 <div class = "row"> <!-- This is for resizing screen depending on screen size -->
-                    
                     <!-- Capstone -->
                     <div class = "col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
-                       <h6> <b>CSCI Capstone Course</b> </h4>
+                        <h6> <b>CSCI Capstone Course</b> </h4>
                         <p> *Main focus of course is creating a project in a team of 6.
                         We are creating a social app where pet owners can meet other pet owners with the only 
                         intention of their pets being pals. I am working in <b>front-end in Dart/Flutter</b> with 2 others and 
-                        the other three are working on back-end in MYSQL. The project will be able on GitHub at the end.</p>
+                        the other three are working on back-end in MYSQL. The project will be able on GitHub at the end.
+                        </p>
                         <p> *On the side, we are following 
                             <a href ="https://missing.csail.mit.edu/">(Missing Semester of Your CS Education)</a> 
-                             -> which covers Shell Tools and Scripting, Editors (Vim), 
-                             Data Wrangling, Command-line Environment, Version Control (Git), Debugging and Profiling, 
-                             Metaprogramming, Security and Cryptography, and Potpourri
+                            -> which covers Shell Tools and Scripting, Editors (Vim), 
+                            Data Wrangling, Command-line Environment, Version Control (Git), Debugging and Profiling, 
+                            Metaprogramming, Security and Cryptography, and Potpourri
                         </p>
                     </div>
                     
