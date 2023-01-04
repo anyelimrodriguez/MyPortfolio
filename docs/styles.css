@@ -84,6 +84,12 @@ p{
     margin-right: 20px;
 }
 
+.responsive-iphone-ss{
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+}
+
 /*Styling for links*/
 a{
     color: white;
